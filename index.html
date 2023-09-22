@@ -6,10 +6,15 @@
     <title>Document</title>
   </head>
   <body>
-
     <h2>Aprendiendo Vue</h2>
     <div id="app">
-        <p>{{ message }}</p>
+      <p>{{ message }}</p>
+
+      <h3>Directivas Vue</h3>
+      <p v-show="active">Texto solo si active = true</p>
+    </div>
+    <div id="app2">
+      <p>{{ message2 }}</p>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2.x.x/dist/vue.min.js"></script>
